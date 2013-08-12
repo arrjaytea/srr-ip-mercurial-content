@@ -1,8 +1,131 @@
-id: "Mercurial Resource Pack for SRR:IP"
-description: "Mercurial Resource Pack"
+id: "Mercurial Maps and Content for SRR:IP"
+variables {
+  name: "FromBackstage"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "FromBackstage"
+    }
+  }
+}
+variables {
+  name: "UsedVIPEntrance"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "UsedVIPEntrance"
+    }
+  }
+}
+variables {
+  name: "UsedClubEntrance"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "UsedClubEntrance"
+    }
+  }
+}
+variables {
+  name: "LeaveMurdochOffice"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "LeaveMurdochOffice"
+    }
+  }
+}
+variables {
+  name: "UsedVIPExit"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "UsedVIPExit"
+    }
+  }
+}
+variables {
+  name: "UsedClubExit"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "UsedClubExit"
+    }
+  }
+}
+variables {
+  name: "MainFloorExit"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "MainFloorExit"
+    }
+  }
+}
+variables {
+  name: "MurdochStorageEntrance"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "MurdochStorageEntrance"
+    }
+  }
+}
+variables {
+  name: "MurdochStorageExit"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "MurdochStorageExit"
+    }
+  }
+}
+variables {
+  name: "MurdochEntrance"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "MurdochEntrance"
+    }
+  }
+}
+variables {
+  name: "MurdochExit"
+  typeName: "bool"
+  defaultValue {
+    bool_value: false
+    variableref_value {
+      scope: TsVariableScope_Story
+      name: "MurdochExit"
+    }
+  }
+}
+description: ""
 startScene: "Apartment"
-allowCharacterImport: true
-allowCharacterGen: true
+allowCharacterImport: false
+allowCharacterGen: false
+allowFallbackCharacter: true
+fallbackCharacterName: "story_jake"
 character_roster {
   roster_entries {
     reference_id: "lvl1_dwarf_rigger"

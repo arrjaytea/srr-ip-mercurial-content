@@ -1,9 +1,10 @@
 project_id: "51fad0676434317c01b50c2b"
 project_name: "Mercurial Map Pack"
-project_version: "1"
+project_version: "Beta 1.03"
 author_name: "Rob Turner"
-synopsis: "Mercurial Resource Pack for SRR:IP"
+synopsis: "Mercurial Maps and Content for SRR:IP"
 has_story: true
+read_only: false
 preview_image: "preview"
 content_pack_dependencies {
   package_id: "518d7671643431b03f0041a8"

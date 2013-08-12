@@ -8190,6 +8190,7 @@ props {
     z: 7
   }
   orientation: ORIENTATION_S
+  displayName: "stagedoor"
   idRef {
     id: "520528b26434319301a404e0"
   }

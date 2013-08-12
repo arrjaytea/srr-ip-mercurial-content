@@ -334,6 +334,7 @@ props {
     z: 1
   }
   orientation: ORIENTATION_E
+  displayName: "Stage_Door"
   idRef {
     id: "520528746434319301a404dc"
   }
@@ -987,6 +988,7 @@ props {
     z: -11
   }
   orientation: ORIENTATION_S
+  displayName: "MainFloorEntrance"
   idRef {
     id: "520528556434319301a404d8"
   }
@@ -994,7 +996,7 @@ props {
     isEnabled: true
     interactionRadius: 1
     transitionPoint {
-      scene_name: "Underworld Main Floor"
+      scene_name: "Underworld Entrance"
       confirmation_text: ""
     }
   }
@@ -4908,12 +4910,52 @@ props {
     z: 18
   }
   orientation: ORIENTATION_S
+  displayName: "MurdochOfficeStorage"
   idRef {
     id: "520528646434319301a404da"
   }
   interactionRoot {
     isEnabled: true
     interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Evaluate If Actor is Inside Region"
+        args {
+          call_value {
+            functionName: "Specific Actor"
+            args {
+              call_value {
+                functionName: "Get Map Item (Player)"
+                args {
+                  int_value: 0
+                }
+              }
+            }
+            args {
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "AreOrAreNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Map Item (Region)"
+            args {
+              string_value: "5207b6d86434313a01ad18a7"
+            }
+          }
+        }
+      }
+    }
     transitionPoint {
       scene_name: "Sidney Murdoch\'s Office"
       confirmation_text: ""
@@ -5234,7 +5276,7 @@ props {
   gridPoint {
     x: 8
     y: 2
-    z: -6
+    z: -4
   }
   orientation: ORIENTATION_S
 }
@@ -6796,4 +6838,162 @@ props {
   idRef {
     id: "5202e33a6434312402b50c80"
   }
+}
+props {
+  name: "vfx_fx_dancingWoman"
+  gridPoint {
+    x: 9
+    y: 1.45
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "DancingWomanBar"
+  }
+  idRef {
+    id: "520586a4643431f705702e30"
+  }
+}
+props {
+  name: "vfx_fx_dancingWoman"
+  gridPoint {
+    x: 9
+    y: 1.45
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "DancingWomanBar"
+  }
+  idRef {
+    id: "520586a8643431f705702e31"
+  }
+}
+props {
+  name: "underworld_tech_guitar"
+  gridPoint {
+    x: 9
+    y: 3
+    z: -4
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_tech_guitar2"
+  gridPoint {
+    x: 6.5
+    y: 1
+    z: -3
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_tech_mic"
+  gridPoint {
+    x: 8.7
+    y: 2
+    z: -5
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 6
+    y: 4
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 0.26666668
+      b: 0.00051880674
+    }
+    intensity: 6
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 6
+    y: 4
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c52a6434319901980f4a"
+  }
+  light {
+    range: 5
+    color {
+      r: 0
+      g: 0.92156863
+      b: 0.10785077
+    }
+    intensity: 6
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 7
+    y: 4
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c5b76434319901980f4b"
+  }
+  light {
+    range: 5
+    color {
+      r: 0.92156863
+      g: 0.8
+      b: 0
+    }
+    intensity: 6
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207c5ef6434319901980f4c"
+  }
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 7
+  }
+}
+props {
+  name: "underworld_walldecoration_darkangelposter"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -10
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_tech_mic2"
+  gridPoint {
+    x: 8
+    y: 1
+    z: -4.5
+  }
+  orientation: ORIENTATION_S
 }

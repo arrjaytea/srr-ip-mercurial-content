@@ -1,10 +1,10 @@
 triggers {
-  name: "Lighting"
+  name: "Lights"
   events {
     ops {
       functionName: "Get Map Item (Event)"
       args {
-        string_value: "EventLights"
+        string_value: "Eventlights"
       }
     }
   }
@@ -34,13 +34,13 @@ triggers {
         float_value: 0
       }
       args {
-        float_value: 8
-      }
-      args {
-        float_value: 0
-      }
-      args {
         float_value: 16
+      }
+      args {
+        float_value: 5
+      }
+      args {
+        float_value: 8
       }
       args {
         float_value: 0.5
@@ -49,7 +49,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (CameraRegion)"
           args {
-            string_value: "5207edf46434317101b7acde"
+            string_value: "52095a766434318e04169974"
           }
         }
       }
@@ -57,7 +57,7 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "5207ee256434317101b7acdf"
+    id: "52095af16434318e0416997b"
   }
   elseActions {
   }
@@ -79,7 +79,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Event)"
           args {
-            string_value: "EventLights"
+            string_value: "Eventlights"
           }
         }
       }
@@ -87,24 +87,24 @@ triggers {
   }
   isActive: true
   idRef {
-    id: "5207ee5b6434317101b7ace0"
+    id: "52095b396434318e0416997c"
   }
   elseActions {
   }
   is_oneshot: false
 }
 regions {
-  name: "AmbientLighting"
+  name: "Ambient Light"
   position {
-    x: -11
-    y: -25
-    width: 18
-    height: 32
+    x: -21
+    y: -26
+    width: 32
+    height: 31
   }
   enabledAtStart: true
   is_camera_region: true
   idRef {
-    id: "5207edf46434317101b7acde"
+    id: "52095a766434318e04169974"
   }
   directional_light_dir {
     x: -0.5
@@ -112,15 +112,15 @@ regions {
     z: -0.75
   }
   directional_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
+    r: 0.51372552
+    g: 0.3019608
+    b: 0.0078431377
     a: 1
   }
   ambient_light_color {
-    r: 0.50196081
-    g: 0.50196081
-    b: 0.50196081
+    r: 0.4509804
+    g: 0.26666668
+    b: 0.0078431377
     a: 1
   }
   ambience_template: ""
@@ -132,30 +132,22 @@ regions {
 characters {
   name: "system_spawner_playerSpawner"
   gridPoint {
-    x: -2
+    x: -20
     y: 0
-    z: 7
+    z: -1
   }
-  orientation: ORIENTATION_W
+  orientation: ORIENTATION_S
   idRef {
-    id: "52013f0a6434318f01058edf"
+    id: "52095b516434318e0416997d"
   }
   character_instance {
-    character_mod {
-      archetypeName: "Player"
-    }
     team_id: "Shadowrunners"
     char_name: "New Actor"
     enabled_at_start: true
     pc_spawn_number: 0
   }
 }
-mapEvents: "EventLights"
-goals {
-  name: "Test"
-  type: GoalType_Primary
-  status: GoalStatus_Hidden
-}
+mapEvents: "Eventlights"
 worldMapLocation {
   filename: ""
   location {
@@ -163,9 +155,9 @@ worldMapLocation {
     y: 0
   }
 }
-mapName: "Apartment"
+mapName: "Rent-a-Hideout"
 parentStory: ""
-scene_title: "Apartment"
+scene_title: "New Scene"
 scene_subtitle: ""
 scene_synopsis: ""
 scene_image: ""
@@ -228,7 +220,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 0
+hiring_maximum_karma: 25
 roster_overrides {
 }
 use_hiring_cost_warning: false

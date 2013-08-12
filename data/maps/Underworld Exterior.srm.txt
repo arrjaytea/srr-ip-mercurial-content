@@ -3,86 +3,6 @@ minZ: -19
 numX: 44
 numZ: 33
 props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: 5
-    y: 5
-    z: -4
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018841643431a106b7ace0"
-  }
-}
-props {
-  name: "barrens_building_01edgeCorner01"
-  gridPoint {
-    x: 3
-    y: 4
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: 0
-    y: 5
-    z: 1
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5201894b643431a106b7ace1"
-  }
-}
-props {
-  name: "pikePlace_building_03baseCorner01"
-  gridPoint {
-    x: 3
-    y: 0
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03edgeFrontCorner"
-  gridPoint {
-    x: 3
-    y: 7
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02corner04"
-  gridPoint {
-    x: 3
-    y: 10
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_door_RoyaleEntrance"
-  gridPoint {
-    x: 5
-    y: 0
-    z: -7
-  }
-  orientation: ORIENTATION_N
-  idRef {
-    id: "520527ce6434319301a404ce"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    transitionPoint {
-      scene_name: "Underworld Entrance"
-      confirmation_text: ""
-    }
-  }
-}
-props {
   name: "pikePlace_building_02edge03"
   gridPoint {
     x: 5
@@ -90,47 +10,6 @@ props {
     z: -7
   }
   orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: 5
-    y: 5
-    z: -7
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018c1d643431a106b7ace4"
-  }
-}
-props {
-  name: "pikePlace_door_RoyaleEntrance"
-  gridPoint {
-    x: -3
-    y: 0
-    z: 1
-  }
-  orientation: ORIENTATION_W
-  idRef {
-    id: "520527c36434319301a404cc"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    transitionPoint {
-      scene_name: "Underworld Entrance"
-      confirmation_text: ""
-    }
-  }
-}
-props {
-  name: "pikePlace_building_02corner02"
-  gridPoint {
-    x: -7
-    y: 0
-    z: 1
-  }
-  orientation: ORIENTATION_E
 }
 props {
   name: "pikePlace_building_02edge04"
@@ -160,51 +39,6 @@ props {
   orientation: ORIENTATION_E
 }
 props {
-  name: "pikePlace_building_02corner03"
-  gridPoint {
-    x: 5
-    y: 6
-    z: -11
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: 5
-    y: 8
-    z: -4
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018d75643431a106b7acea"
-  }
-}
-props {
-  name: "pikePlace_building_03edge04"
-  gridPoint {
-    x: 1
-    y: 9
-    z: 2
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018d7b643431a106b7aceb"
-  }
-}
-props {
-  name: "pikePlace_building_02corner03"
-  gridPoint {
-    x: -7
-    y: 7
-    z: 1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018d8b643431a106b7acee"
-  }
-}
-props {
   name: "pikePlace_building_02edge03"
   gridPoint {
     x: -3
@@ -214,189 +48,6 @@ props {
   orientation: ORIENTATION_E
   idRef {
     id: "52018dc0643431a106b7acef"
-  }
-}
-props {
-  name: "pikePlace_building_03edge03"
-  gridPoint {
-    x: -6
-    y: 4
-    z: 1
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018dd2643431a106b7acf0"
-  }
-}
-props {
-  name: "pikePlace_building_02baseBackCorner"
-  gridPoint {
-    x: -12
-    y: 0
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: 0
-    y: 12
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: -3
-    y: 12
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: 3
-    y: 12
-    z: -4
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018f02643431a106b7acf3"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontSide01"
-  gridPoint {
-    x: 3
-    y: 12
-    z: -7
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018f0c643431a106b7acf4"
-  }
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: 3
-    y: 12
-    z: -10
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofFrontCorner"
-  gridPoint {
-    x: -6
-    y: 12
-    z: -1
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018f24643431a106b7acf6"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: 0
-    y: 12
-    z: -10
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -3
-    y: 12
-    z: -10
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018f44643431a106b7acf7"
-  }
-}
-props {
-  name: "pikePlace_building_02roofBackCorner01"
-  gridPoint {
-    x: -6
-    y: 12
-    z: -10
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -6
-    y: 12
-    z: -7
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018f69643431a106b7acf9"
-  }
-}
-props {
-  name: "pikePlace_building_02roofSideBack"
-  gridPoint {
-    x: -6
-    y: 12
-    z: -4
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "52018f6e643431a106b7acfa"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: 0
-    y: 12
-    z: -7
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -3
-    y: 12
-    z: -7
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018f7d643431a106b7acfb"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: -3
-    y: 12
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018f7f643431a106b7acfc"
-  }
-}
-props {
-  name: "pikePlace_building_02roofCenter01"
-  gridPoint {
-    x: 0
-    y: 12
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "52018f81643431a106b7acfd"
   }
 }
 props {
@@ -1007,33 +658,6 @@ props {
   idRef {
     id: "5203b142643431950506daf1"
   }
-}
-props {
-  name: "pikePlace_buildingOrnament_ledPanel01"
-  gridPoint {
-    x: 5
-    y: 4
-    z: -1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_ledCorner01"
-  gridPoint {
-    x: 3
-    y: 4
-    z: 1
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_buildingOrnament_led02"
-  gridPoint {
-    x: 3
-    y: 7
-    z: 1
-  }
-  orientation: ORIENTATION_S
 }
 props {
   name: "pikePlace_street_temporaryPoliceRail"
@@ -2205,37 +1829,13 @@ props {
 props {
   name: "pikePlace_lighting_lampPost01"
   gridPoint {
-    x: 8
-    y: 0
-    z: -5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5203ec046434316f02058eda"
-  }
-}
-props {
-  name: "pikePlace_lighting_lampPost01"
-  gridPoint {
-    x: 3
+    x: -5
     y: 0
     z: 4
   }
   orientation: ORIENTATION_S
   idRef {
     id: "5203ec0c6434316f02058edb"
-  }
-}
-props {
-  name: "pikePlace_lighting_lampPost01"
-  gridPoint {
-    x: -6
-    y: 0
-    z: 4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5203ec146434316f02058edc"
   }
 }
 props {
@@ -2248,24 +1848,6 @@ props {
   orientation: ORIENTATION_S
   idRef {
     id: "5203ec1c6434316f02058edd"
-  }
-}
-props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: 8
-    y: 3
-    z: -5
-  }
-  orientation: ORIENTATION_S
-  light {
-    range: 5
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 7
   }
 }
 props {
@@ -2286,28 +1868,7 @@ props {
       g: 1
       b: 1
     }
-    intensity: 7
-  }
-}
-props {
-  name: "system_gizmo_lightbulb"
-  gridPoint {
-    x: -6
-    y: 3
-    z: 4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "5203ec496434316f02058edf"
-  }
-  light {
-    range: 5
-    color {
-      r: 1
-      g: 1
-      b: 1
-    }
-    intensity: 7
+    intensity: 1
   }
 }
 props {
@@ -2328,7 +1889,7 @@ props {
       g: 1
       b: 1
     }
-    intensity: 7
+    intensity: 1
   }
 }
 props {
@@ -2349,36 +1910,561 @@ props {
       g: 1
       b: 1
     }
-    intensity: 7
+    intensity: 1
   }
 }
 props {
-  name: "underworld_sign_underworld01"
-  gridPoint {
-    x: -2.25
-    y: 7.74
-    z: 2
-  }
-  orientation: ORIENTATION_E
-}
-props {
-  name: "underworld_sign_underworld01"
-  gridPoint {
-    x: 6
-    y: 7.72
-    z: -6
-  }
-  orientation: ORIENTATION_S
-}
-props {
-  name: "pikePlace_building_03edge04"
+  name: "underworld_building_03edgeLED"
   gridPoint {
     x: -3
     y: 5
     z: 1
   }
   orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_03edgeLED"
+  gridPoint {
+    x: 0
+    y: 5
+    z: 1
+  }
+  orientation: ORIENTATION_S
   idRef {
-    id: "5203f393643431e602b39dd7"
+    id: "5206baa36434314501f32f44"
+  }
+}
+props {
+  name: "underworld_building_03edgeLED"
+  gridPoint {
+    x: 0
+    y: 8
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206baaa6434314501f32f45"
+  }
+}
+props {
+  name: "underworld_building_03edgeLED"
+  gridPoint {
+    x: 5
+    y: 5
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206babd6434314501f32f46"
+  }
+}
+props {
+  name: "underworld_building_03edgeLED"
+  gridPoint {
+    x: 5
+    y: 8
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206bace6434314501f32f47"
+  }
+}
+props {
+  name: "underworld_building_03edgeLED"
+  gridPoint {
+    x: 5
+    y: 5
+    z: -4
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206bad96434314501f32f48"
+  }
+}
+props {
+  name: "underworld_building_basebackcorner"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -0.6
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_rooffrontside01"
+  gridPoint {
+    x: 0
+    y: 12
+    z: -1
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_rooffrontside01"
+  gridPoint {
+    x: -3
+    y: 12
+    z: -1
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_rooffrontside01"
+  gridPoint {
+    x: 3
+    y: 12
+    z: -4
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_building_rooffrontside01"
+  gridPoint {
+    x: 3
+    y: 12
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206c58c643431990115dae6"
+  }
+}
+props {
+  name: "underworld_building_rooffrontcorner"
+  gridPoint {
+    x: 3
+    y: 12
+    z: -10
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_rooffrontcorner"
+  gridPoint {
+    x: -6
+    y: 12
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206c6cb643431990115dae7"
+  }
+}
+props {
+  name: "underworld_building_corner04"
+  gridPoint {
+    x: 3
+    y: 8.7
+    z: -1
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_02edgecorner01"
+  gridPoint {
+    x: 3
+    y: 5.7
+    z: -1
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_corner03"
+  gridPoint {
+    x: -6
+    y: 7
+    z: 1
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_building_corner03"
+  gridPoint {
+    x: 5
+    y: 6
+    z: -11
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206c9c9643431990115dae9"
+  }
+}
+props {
+  name: "underworld_building_corner02"
+  gridPoint {
+    x: -7
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_door_royaleentrance"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -7
+  }
+  orientation: ORIENTATION_N
+  displayName: "VIP Underworld Entrance"
+  idRef {
+    id: "5207b61d6434313a01ad18a4"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    transitionPoint {
+      scene_name: "Underworld Entrance"
+      confirmation_text: ""
+    }
+  }
+}
+props {
+  name: "underworld_door_royaleentrance"
+  gridPoint {
+    x: -3
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_W
+  displayName: "Underworld Entrance"
+  idRef {
+    id: "5206cdd4643431e601f32f44"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    transitionPoint {
+      scene_name: "Underworld Entrance"
+      confirmation_text: ""
+    }
+  }
+}
+props {
+  name: "underworld_sign_underworld02"
+  gridPoint {
+    x: 5.3
+    y: 6.6
+    z: -6.8
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_sign_underworld02"
+  gridPoint {
+    x: -3.1
+    y: 6.7
+    z: 1.4
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_building_02roofbackcorner01"
+  gridPoint {
+    x: -6
+    y: 12
+    z: -10
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_02roofcenter01"
+  gridPoint {
+    x: 0
+    y: 12
+    z: -4
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "underworld_building_02roofcenter01"
+  gridPoint {
+    x: -3
+    y: 12
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206d13d643431e601f32f45"
+  }
+}
+props {
+  name: "underworld_building_02roofcenter01"
+  gridPoint {
+    x: -3
+    y: 12
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206d140643431e601f32f46"
+  }
+}
+props {
+  name: "underworld_building_02roofcenter01"
+  gridPoint {
+    x: 0
+    y: 12
+    z: -7
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206d142643431e601f32f47"
+  }
+}
+props {
+  name: "underworld_building_02roofsideback"
+  gridPoint {
+    x: -6
+    y: 12
+    z: -4
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "underworld_building_02roofsideback"
+  gridPoint {
+    x: 0
+    y: 12
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206d1cb643431e601f32f48"
+  }
+}
+props {
+  name: "underworld_building_02roofsideback"
+  gridPoint {
+    x: -3
+    y: 12
+    z: -10
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206d1cf643431e601f32f49"
+  }
+}
+props {
+  name: "underworld_building_02roofsideback"
+  gridPoint {
+    x: -6
+    y: 12
+    z: -7
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5206d1d5643431e601f32f4a"
+  }
+}
+props {
+  name: "underworld_building_02edgecorner01"
+  gridPoint {
+    x: 3
+    y: -0.2
+    z: -1
+  }
+  orientation: ORIENTATION_S
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: 4.6
+    y: 5.8
+    z: -5
+  }
+  orientation: ORIENTATION_S
+  light {
+    range: 10
+    color {
+      r: 0.86274511
+      g: 0
+      b: 0.074631877
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -5
+    y: 5
+    z: -0.5
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5206e6ab6434319f022ba69a"
+  }
+  light {
+    range: 10
+    color {
+      r: 0.86274511
+      g: 0
+      b: 0.074631877
+    }
+    intensity: 5
+  }
+}
+props {
+  name: "underworld_buildingornament_ledpanel01"
+  gridPoint {
+    x: -4.7
+    y: 5
+    z: 1.3
+  }
+  orientation: ORIENTATION_E
+}
+props {
+  name: "pikePlace_ground_cobblestone04"
+  gridPoint {
+    x: -15
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207d3f46434319901980f51"
+  }
+}
+props {
+  name: "pikePlace_ground_cobblestone03"
+  gridPoint {
+    x: -12
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207d3f46434319901980f52"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -6
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d3fd6434319901980f53"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 14
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d4076434319901980f54"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 12
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d4076434319901980f55"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 10
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d4076434319901980f56"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 8
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d4076434319901980f57"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -19
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207d4076434319901980f58"
+  }
+}
+props {
+  name: "system_gizmo_lightbulb"
+  gridPoint {
+    x: -5
+    y: 3
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207d4386434319901980f59"
+  }
+  light {
+    range: 5
+    color {
+      r: 1
+      g: 1
+      b: 1
+    }
+    intensity: 1
+  }
+}
+props {
+  name: "pikePlace_building_02edge03"
+  gridPoint {
+    x: -4
+    y: 8
+    z: 1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207db7b6434319901980f5a"
+  }
+}
+props {
+  name: "underworld_building_02edgecorner01"
+  gridPoint {
+    x: 3
+    y: 2.7
+    z: -1
+  }
+  orientation: ORIENTATION_E
+  idRef {
+    id: "5207e4c06434312601b7acda"
+  }
+}
+props {
+  name: "underworld_building_02roofcenter01"
+  gridPoint {
+    x: 2
+    y: 12
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "5207e4f26434312601b7acdb"
   }
 }

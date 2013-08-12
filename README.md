@@ -1,9 +1,28 @@
-srr-ip-mercurial-content
-========================
 
 # SRR:IP Mercurial Content Pack (including Underworld '93)
 
 ## Changelog
+
+## Beta v. 1.2b (8/12/2013)
+
+### Added:
+
+- Rent-A-Hideout Map
+- Custom Tileset for Underworld Exterior
+- Guitar/Stand Props (2)
+- Dark Angel Poster Prop
+- Underworld Sign Prop
+
+### Changes
+
+#### Underworld
+
+- Added custom tiles for exterior
+- Underworld Sign
+
+#### Apartment
+
+- Lighting added
 
 ## Beta v. 1.1b (8/6/2013)
 

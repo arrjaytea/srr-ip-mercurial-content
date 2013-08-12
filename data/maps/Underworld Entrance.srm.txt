@@ -1,7 +1,7 @@
 minX: -6
 minZ: -41
 numX: 20
-numZ: 45
+numZ: 46
 props {
   name: "telestrianEstate_floor_marbleTile01"
   gridPoint {
@@ -115,6 +115,7 @@ props {
     z: -5
   }
   orientation: ORIENTATION_N
+  displayName: "ClubStairs"
   idRef {
     id: "520527ee6434319301a404d0"
   }
@@ -324,9 +325,10 @@ props {
   gridPoint {
     x: 10
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
+  displayName: "VIPDoor"
   idRef {
     id: "5205281c6434319301a404d4"
   }
@@ -1085,6 +1087,7 @@ props {
     z: -9
   }
   orientation: ORIENTATION_S
+  displayName: "RegularDoor"
   idRef {
     id: "51fbdedb6434310a05b7ad37"
   }
@@ -2095,6 +2098,7 @@ props {
     z: -39
   }
   orientation: ORIENTATION_N
+  displayName: "ClubStairs2"
   idRef {
     id: "51fbec066434310a05b7adcb"
   }
@@ -2188,9 +2192,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 4
+    x: 1
     y: 0
-    z: -6
+    z: -5
   }
   orientation: ORIENTATION_S
   idRef {
@@ -2200,7 +2204,7 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 4
+    x: 5
     y: 0
     z: -3
   }
@@ -2214,7 +2218,7 @@ props {
   gridPoint {
     x: 3
     y: 0
-    z: -3
+    z: -4
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2224,9 +2228,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 2
+    x: 4
     y: 0
-    z: -3
+    z: -4
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2236,9 +2240,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 1
+    x: 2
     y: 0
-    z: -3
+    z: -4
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2248,57 +2252,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 0
+    x: -2
     y: 0
-    z: -3
-  }
-  orientation: ORIENTATION_W
-  idRef {
-    id: "51fbed256434310a05b7add6"
-  }
-}
-props {
-  name: "pikePlace_street_temporaryPoliceRail"
-  gridPoint {
-    x: 4
-    y: 0
-    z: -4
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51fbed2e6434310a05b7add7"
-  }
-}
-props {
-  name: "pikePlace_street_temporaryPoliceRail"
-  gridPoint {
-    x: 4
-    y: 0
-    z: -5
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51fbed306434310a05b7add8"
-  }
-}
-props {
-  name: "pikePlace_street_temporaryPoliceRail"
-  gridPoint {
-    x: 4
-    y: 0
-    z: -7
-  }
-  orientation: ORIENTATION_S
-  idRef {
-    id: "51fbed3e6434310a05b7add9"
-  }
-}
-props {
-  name: "pikePlace_street_temporaryPoliceRail"
-  gridPoint {
-    x: 6
-    y: 0
-    z: -8
+    z: -6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2308,9 +2264,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 5
+    x: -3
     y: 0
-    z: -8
+    z: -6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2352,6 +2308,7 @@ props {
     z: -41
   }
   orientation: ORIENTATION_E
+  displayName: "MurdochOfficeDoor"
   idRef {
     id: "51fbf0946434310a05b7ade0"
   }
@@ -3147,9 +3104,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 7
+    x: -1
     y: 0
-    z: -8
+    z: -6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -3159,9 +3116,9 @@ props {
 props {
   name: "pikePlace_street_temporaryPoliceRail"
   gridPoint {
-    x: 8
+    x: 0
     y: 0
-    z: -8
+    z: -6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4232,7 +4189,7 @@ props {
   gridPoint {
     x: 8
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4244,7 +4201,7 @@ props {
   gridPoint {
     x: 6
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4256,7 +4213,7 @@ props {
   gridPoint {
     x: 4
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4268,7 +4225,7 @@ props {
   gridPoint {
     x: 2
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4280,7 +4237,7 @@ props {
   gridPoint {
     x: 0
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4292,7 +4249,7 @@ props {
   gridPoint {
     x: -2
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4304,10 +4261,70 @@ props {
   gridPoint {
     x: -4
     y: 0
-    z: 1
+    z: 2
   }
   orientation: ORIENTATION_E
   idRef {
     id: "5202e4646434312402b50c9f"
+  }
+}
+props {
+  name: "office_wall_greyEnd02"
+  gridPoint {
+    x: -4
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "520544fd643431c603fc411b"
+  }
+}
+props {
+  name: "secretLab_wall_fill"
+  gridPoint {
+    x: 11
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "52054502643431c603fc411c"
+  }
+}
+props {
+  name: "pikePlace_street_temporaryPoliceRail"
+  gridPoint {
+    x: 5
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5205452c643431c603fc411d"
+  }
+}
+props {
+  name: "pikePlace_street_temporaryPoliceRail"
+  gridPoint {
+    x: 6
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5205452c643431c603fc411e"
+  }
+}
+props {
+  name: "pikePlace_street_temporaryPoliceRail"
+  gridPoint {
+    x: 7
+    y: 0
+    z: -4
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "5205452c643431c603fc411f"
   }
 }
